@@ -1,4 +1,4 @@
 [submodule "PhysX"]
 	path = PhysX
 	url = git@github.com:sancelot/PhysX.git
-	branch = update-webidl-bindings
+	
