@@ -1,7 +1,7 @@
 name: PhysX-JS-WebIDL - Build Library
 
 on:
-  push
+  workflow_dispatch
 
 jobs:
   build:
