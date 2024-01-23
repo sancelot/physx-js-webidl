@@ -13,7 +13,11 @@ jobs:
         with:
           lfs: true
           submodules: recursive
-
+    - name: checkout submodule
+      run: |
+        git submodule update --init --recursive
+       
+        
       - name: Set up Docker Compose
         run: |
           sudo apt-get update
